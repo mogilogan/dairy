@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>School Registration</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <h1 style="text-align:center; color:rgb(0, 97, 13);">St.Patrick Matric Higher Secondary School</h1>
+    <img src="logo.jpg" width="10%" height="10%">
+    <script type="text/javascript" src="index.js"></script>
+</head>
+
+
+<body>
+
+<h3>FILL IN SCHOOL DAIRY!</h3>
+    <input type="button" onclick="printDiv('print'); return false;" value="Print" />
+    <div id="print">
+      <form action="" method="post">
+
+    
+
+    <center> 
+        <table border="3"> 
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <td><input type="text" name="fname" id="fname"></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Last Name</th>
+                    <td><input type="text" name="lname" id="lname"></td>
+                </tr>  
+                <tr>
+                    <th>Email</th>
+                    <td><input type="text" name="email" id="email"></td>
+                </tr>  
+                <tr>
+                    <th>Age</th>
+                    <td><input type="text" name="age" id="age"></td>
+                </tr> 
+                <tr>
+                    <th>Blood Group</th>
+                    <td><input type="text" name="blood" id="blood"></td>
+                </tr>
+                <tr>
+                    <th>Premanent Address</th>
+                    <td><input type="text" name="Padd" id="Padd" size="30"></td>
+                </tr> 
+                <tr>
+                    <th>Temprorary Address</th>
+                    <td><input type="text" name="Tadd" id="Tadd" size="30"></td>
+                </tr>  
+                <tr>
+                    <th>Phone Number</th>
+                    <td><input type="text" name="PN" id="Pn"></td>
+                </tr>  
+                <tr>
+                    <th>Father's Name</th>
+                    <td><input type="text" name="father" id="father"></td>
+                </tr>
+                <tr>
+                    <th>Mother's Name</th>
+                    <td><input type="text" name="mother" id="mother"></td>
+                </tr>
+                <tr>
+                    <th>Father's Occupation</th>
+                    <td><input type="text" name="fatheroccu" id="fatheroccu"></td>
+                </tr>
+                <tr>
+                    <th>Mother's Occupation</th>
+                    <td><input type="text" name="motheroccu" id="motheroccu"></td>
+                </tr>
+                <tr>
+                    <th>Family's Annual Income</th>
+                    <td><input type="text" name="famAnnIn" id="famAnnIn"></td>
+                </tr>
+                <tr id="btna">
+                    <th><input type="button" name="button" id="btn" value="Add" onclick="AddRow()"></th>
+                </tr>
+            </tbody>
+        </table>
+    </center>  
+       </form>
+       </div>
+<br>
+<br>
+    
+    <center>
+        <table border="4" id="show">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                    <th>Blood Group</th>
+                    <th>Permanent Address</th>
+                    <th>Temperory Address</th>
+                    <th>Phone Number</th>
+                    <th>Father's Name</th>
+                    <th>Mother's name</th>
+                    <th>Father's Occupation</th>
+                    <th>Mother's Occupation</th>
+                    <th>Family's Annual Income</th>
+                </tr>
+            </thead>
+        </table>
+    </center> 
+    
+
+    
+</body>
+</html>

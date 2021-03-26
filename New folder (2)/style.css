@@ -1,0 +1,28 @@
+﻿body{
+    background-color: rgb(70, 191, 228);
+}
+
+
+table{
+    margin-top: 50px;
+    background: #333;
+    color: #fff;
+
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td, th{
+    padding: 8px;
+}
+
+#show th, #show td{
+    padding: 15px;
+}
+
+#btna td input{
+    width: 40%;
+}
